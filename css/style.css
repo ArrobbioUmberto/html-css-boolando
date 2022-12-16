@@ -5,11 +5,16 @@
 }
 header{
     background-color: orange;
-    min-height: 100px;
+    min-height: fit-content;
 }
 .container{
     max-width: 900px;
-    min-height: 1000px;
+    margin: 0 auto;  
+}
+a{
+    text-decoration: none;
+}
+.container__card{
     margin: 50px auto;
     display: flex;
     flex-wrap: wrap;
@@ -19,6 +24,7 @@ header{
 .card{
     max-width: 290px;
     min-height: 490px;
+    padding: 20px 0;
 }
 .card__image{
     width: 290px;
@@ -107,7 +113,25 @@ list-style-type: none;
     padding: 6px;
     line-height: 10px;
 }
-
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.header__age{
+    flex-basis: 25%;
+}
+.header__icon{
+    flex-basis: 25%;
+}
+.header__logo{
+    flex-basis: 50%;
+}
+.header__age ul{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
 
                     
                    
