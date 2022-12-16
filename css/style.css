@@ -7,19 +7,21 @@ header{
     background-color: orange;
     min-height: 100px;
 }
-.card{
-    width: ;
-
-}
 .container{
     max-width: 900px;
     min-height: 1000px;
     background-color: red;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 .card{
+    max-width: 290px;
     min-height: 490px;
-    border: 2px dotted black;
+    margin-right: 14px;
+}
+.card:nth-child(3){
+    margin-right: 0;
 }
 .card__image{
     width: 290px;
