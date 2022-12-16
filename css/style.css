@@ -13,6 +13,7 @@ header{
 }
 a{
     text-decoration: none;
+    color: white;
 }
 .container__card{
     margin: 50px auto;
@@ -116,6 +117,7 @@ list-style-type: none;
 .row{
     display: flex;
     justify-content: space-between;
+    padding: 10px 0;
 }
 .header__age{
     flex-basis: 25%;
@@ -125,6 +127,8 @@ list-style-type: none;
 }
 .header__logo{
     flex-basis: 50%;
+    display: flex;
+    justify-content: center;
 }
 .header__age ul{
     display: flex;
@@ -132,6 +136,41 @@ list-style-type: none;
     width: 100%;
     justify-content: space-between;
 }
+.header__logo img{
+    width: 100px;
+    height: auto;
+}
+.header__icon img{
+    width: 15px;
+    height: 15px;
+    margin: 0 5px;
+}
+.header__icon ul{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: end;
+}
+.footer__start ul, .footer__end ul{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+}
+.footer__start li, .footer__end li{
+    margin-right: 10px;
+}
+.footer__start li{
+    font-size: 15px;
+}
+h4{
+    margin-top: 10px;
+}
+footer img{
+    width: 23px;
+    height: 23px;
+    background-color: white;
+}
+
 
                     
                    
