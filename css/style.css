@@ -57,8 +57,28 @@ list-style-type: none;
 #men__one{
     background-image: url(./../img/1.webp);
     background-size: cover;
-
 }
+#women__two{
+    background-image: url(./../img/2.webp);
+    background-size: cover;
+}
+#women__three{
+    background-image: url(./../img/3.webp);
+    background-size: cover;
+}
+#men__four{
+    background-image: url(./../img/4.webp);
+    background-size: cover;
+}
+#women__five{
+    background-image: url(./../img/5.webp);
+    background-size: cover;
+}
+#women__six{
+    background-image: url(./../img/6.webp);
+    background-size: cover;
+}
+
 
                     
                    
