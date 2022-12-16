@@ -49,8 +49,14 @@ footer{
 }
 .discount{
     color: white;
-    width: 120px;
+    width: fit-content;
     background-color: salmon;
     position: absolute;
     bottom: 25px;
 }
+ul{
+list-style-type: none;
+}
+
+                    
+                   
