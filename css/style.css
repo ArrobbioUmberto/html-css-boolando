@@ -20,7 +20,7 @@ header{
     min-height: 490px;
     margin-right: 14px;
 }
-.card:nth-child(3){
+.card:nth-child(3n + 0){
     margin-right: 0;
 }
 .card__image{
